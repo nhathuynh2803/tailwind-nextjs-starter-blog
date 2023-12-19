@@ -1,23 +1,25 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  title: "Nhật Huỳnh's Blog | nhathuynh77",
+  author: 'Nhật Huỳnh',
+  headerTitle: "NHATHUYNH's BLOG",
+  description: 'A blog created to share my knowledge and experience in programming and life.',
+  footer: "NHATHUYNH's BLOG",
+  footerDescription: 'A blog created to share my knowledge and experience in programming and life.',
+  language: 'en-us, vi-vn',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://nhathuynh77.com',
+  siteRepo: '',//'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
+  email: 'nhathuynh77@outlook.com',
   github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  twitter: 'https://twitter.com/nhathuynh2803',
   facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  locale: 'en-US',
+  youtube: 'https://youtube.com/@nhathuynh77blog',
+  linkedin: 'https://www.linkedin.com/in/nh%E1%BA%ADt-hu%E1%BB%B3nh-366993102/',
+  locale: 'vi-VN',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
