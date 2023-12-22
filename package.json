@@ -6,7 +6,7 @@
     "node": ">=20.10.0"
   },
   "scripts": {
-    "start": "next start",
+    "start": "npm uninstall -g next & npm install -g next & next start",
     "dev": "cross-env INIT_CWD=$PWD next dev",
     "build": "cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
     "serve": "next start",
