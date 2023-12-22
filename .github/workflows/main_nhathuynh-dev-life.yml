@@ -60,5 +60,3 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4035D617EC034288850C2599CBC5A00D }}
           package: .
-      - name: start web
-        run: yarn start
