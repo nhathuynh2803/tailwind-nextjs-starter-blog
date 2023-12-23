@@ -28,7 +28,7 @@ jobs:
           # yarn run test --if-present
 
       - name: Zip artifact for deployment
-        run: zip release.zip .next package.json next.config.js -r
+        run: zip release.zip .next package.json next.config.js node_modules public -r
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
