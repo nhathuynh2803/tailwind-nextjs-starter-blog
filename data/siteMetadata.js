@@ -11,7 +11,7 @@ const siteMetadata = {
   siteUrl: 'https://nhathuynh77.com',
   siteRepo: '',//'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/image-card.svg',
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'nhathuynh77@outlook.com',
   github: 'https://github.com',
