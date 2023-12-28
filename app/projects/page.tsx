@@ -13,7 +13,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            `Đây là những dự án mà tôi đã thực hiện trong quá trình học tập và làm việc của bản thân đã làm được. Giúp bản thân học hỏi và đúc kết được rất nhiều kinh nghiệm thực tiễn trong quá trình làm việc. Mong tương lai sẽ có nhiều những dự án hơn nữa.`
+            {`Đây là những dự án mà tôi đã thực hiện trong quá trình học tập và làm việc của bản thân đã làm được. Giúp bản thân học hỏi và đúc kết được rất nhiều kinh nghiệm thực tiễn trong quá trình làm việc. Mong tương lai sẽ có nhiều những dự án hơn nữa.`}
           </p>
         </div>
         <div className="container py-12">
