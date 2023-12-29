@@ -1,5 +1,14 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
+/**
+ * @openapi
+ * /api/user/get-users:
+ *   get:
+ *     description: Return a list user data.
+ *     responses:
+ *       200:
+ *         description: list user data.
+ */
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     // Handle the GET request to /api/user/get-users
     if (req.method === 'GET') {
